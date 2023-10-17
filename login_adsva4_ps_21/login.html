@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CRUD em PHP</title>
+</head>
+<body>
+	<form name="frm_login" method="post">
+		<b><h2>Área de Segurança</h2></b>
+		<p>
+			<fieldset>
+				<legend>Identificação da Conta:</legend>
+				Usuário ou E-Mail:<br>
+				<input type="text" name="txt_usuario" size="60" maxlength="60"><br>
+				Senha:<br>
+				<input type="password" name="txt_senha" size="60" maxlength="10"><p>
+				<input type="submit" value="ENTRAR" onClick="document.frm_login.action='logar.php'">
+				<input type="submit" value="NOVA CONTA" onClick="document.frm_login.action='criar_conta.html'">
+			</fieldset>
+	</form>
+ </body>
+</html>
+

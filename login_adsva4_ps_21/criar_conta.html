@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Manipulação de Dados em PHP</title>
+</head>
+<body>
+	<form name="frm_criar_conta" method="POST">
+		<font face="arial" size="5" color="red">
+			<u><b>CADASTRO DE CONTAS</b></u><br>
+		</font>
+		<p>
+			Usuário:<br>
+			<input type="text" name="txt_usuario" size="60" maxlength="40" required><br>
+			E-Mail:<br>
+            <input type="text" name="txt_email" size="60" maxlength="60" required><br>
+            Senha:<br>
+            <input type="password" name="txt_senha" size="60" maxlength="10" required><br>
+            <p>
+            <input type="submit" name="btn_criar" value="CRIAR CONTA" onClick="document.frm_criar_conta.action='criar.php'">
+    </form>
+</body>
+</html>
